@@ -5,5 +5,7 @@ I'm no master in linguistics, but by using a pseudo-regex (verb, *, noun) we can
 It's not perfect, but try it out with your own text!
 
 This demo includes the wordcloud layout from Jason Davies and Percy Wegmann's POS tagger. 
+
 https://www.jasondavies.com/wordcloud/
+
 https://www.npmjs.com/package/pos
