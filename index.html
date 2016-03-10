@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Wordcloud NLP</title>
+<!-- stuff for styling -->
+<link rel="stylesheet" type="text/css" href="/style.css"/>
+<!-- stuff for pos tagging -->
+<script type="text/javascript" src="lexer.js"></script>
+<script type="text/javascript" src="lexicon.js_"></script>
+<script type="text/javascript" src="POSTagger.js"></script>
+<!-- stuff for d3 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+<!-- stuff for the davies wordcloud -->
+<script src="cloud.js"></script>
+
+<body>
+	<div id="title">Wordcloud with Basic NLP</div>
+	<textarea id="input-text" rows="4">The wordcloud is often maligned as a visual layout. Raw frequencies without filtering stopwords and general loss of word context attribute to this negative stigma. In an attempt to provide a more insightful wordcloud, I have included a basic NLP technique to pick out action phrases in plain text. I'm no master in linguistics, but by using a pseudo-regex (verb, *, noun) we can detect phrases that serve as actionable highlights from a textbody. It's not perfect, but try it out with your own text!</textarea>
+	<button id="submit-button" onclick="renderCloud()">Render Cloud</button>
+	<div id="cloud-container"></div>
+
+
+</body>
+
+<script src="myWordCloud.js"></script>
+<!-- 
+The wordcloud is often maligned as a visual layout. Raw frequencies without filtering stopwords and general loss of word context attribute to this negative stigma. In an attempt to provide a more insightful wordcloud, I have included a basic NLP technique to pick out action phrases in plain text. I'm no master in linguistics, but by using a pseudo-regex (verb, *, noun) we can detect phrases that serve as actionable highlights from a textbody. This demo includes the wordcloud layout from Jason Davies and Percy Wegmann's POS tagger. It's not perfect, but try it out with your own text! -->

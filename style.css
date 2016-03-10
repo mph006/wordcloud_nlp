@@ -1,0 +1,51 @@
+
+body{
+  font-family: Helvetica;
+}
+
+#title{
+  display: block;
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  border-bottom: thin solid black;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#input-text{
+	display: block;
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	background-color: #e9e9e9;
+	height: 20%;
+}
+
+#submit-button{
+	display: block;
+	text-align: center;
+	margin-left:47.5%;
+	margin-top: 15px;
+}
+
+
+#cloud-container{
+/*	background-color: lightgrey;*/
+	position: relative;
+	display: block;
+	width:70%;
+	margin-left: 15%;
+	margin-top: 15px;
+	height: 500px;
+	overflow-y: scroll; 
+}
+
+#cloud-container::-webkit-scrollbar{
+	display:none;
+}
+
+
